@@ -1,0 +1,4582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>160</y>
+      <width>168</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>Cannon Flag</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>Upper Camera Angle</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filename:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Character &amp; Vehicle</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mission Paramaters</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>78</x>
+      <y>150</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_33">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario Circuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Moo Moo Meadows</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mushroom Gorge</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Grumble Volcano</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad's Factory</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Coconut Mall</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DK Summit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario's Gold Mine</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi Circuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy Circuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Moonview Highway</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Maple Treeway</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser's Castle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rainbow Road</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Dry Ruins</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Cape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GCN Peach Beach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GCN Mario Circuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GCN Waluigi Stadium</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GCN DK Mountain</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DS Yoshi Falls</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DS Desert Hills</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DS Peach Gardens</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DS Delfino Square</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SNES Mario Circuit 3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SNES Ghost Valley 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N64 Mario Raceway</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N64 Sherbert Land</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N64 Bowser's Castle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N64 DK's Jungle Parkway</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GBA Bowser's Castle 3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GBA Shy Guy Beach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Delfino Pier</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Block Plaza</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chain Chomp Wheel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Stadium</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Thwomp Desert</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GCN Cookie Land</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DS Twilight House</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SNES Battle Course 3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GBA Battle Course 3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N64 Skyscraper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Winning Mario Circuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Losing Mario Circuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sunset Luigi Circuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Galaxy Arena</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>60</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time Limit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>60</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Score Required</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>130</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Miniturbo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Timed Race</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Boss Race</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Drift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Itembox</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Enemy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Boss</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Final Boss</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Coin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gate</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Boost Start</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CPU Enemy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wheelie</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Slipstream</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>110</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gamemode</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>41</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>8</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Level Number</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>80</y>
+      <width>71</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>65535</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>80</y>
+      <width>101</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>65535</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>41</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>8</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addCPU">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add CPU</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu1c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>70</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu1v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>70</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>220</y>
+      <width>51</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>50cc</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>220</y>
+      <width>51</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100cc</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>220</y>
+      <width>51</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>150cc</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mission_single.kmt</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ccLabel">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current: 50cc</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="problemLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>257</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cpu2c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>100</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu2v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu3c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>130</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu3v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>130</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu4c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>160</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu4v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>160</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu5c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>190</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu5v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>190</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu6c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>220</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu6v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>220</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu7c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>250</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu7v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>250</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu8c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>280</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu8v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>280</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu9c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>310</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu9v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu10c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>340</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu10v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>340</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu11c">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>370</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Waluigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bones</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Mario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Donkey Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yoshi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Luigi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toadette</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koopa Troopa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daisy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peach</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birdo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diddy Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>King Boo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowser Jr</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dry Bowser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Funky Kong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rosalina</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cpu11v">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>370</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Standard Kart S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Kart L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baby Booster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Classic Dragster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Offroader</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mini Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wild Wing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Flyer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cheep Charger</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Super Blooper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piranha Prowler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiny Titan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Daytripper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jetsetter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Falcon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprinter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honeycoupe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Standard Bike L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bullet Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mach Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flame Runner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bit Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugarscoot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wario Bike</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quaker</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zip Zip</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shooting Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Magikruiser</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sneakster</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Spear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jet Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolphin Dasher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phantom</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="removeCPU">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove CPU</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuKMT_Edirot">
+    <property name="title">
+     <string>KMT Editor</string>
+    </property>
+   </widget>
+   <addaction name="menuKMT_Edirot"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
